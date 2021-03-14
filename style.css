@@ -9,6 +9,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.wrapper {
+  height: 100vh;
+  background-color: #555;
+}
+
 /* nav */
 nav {
   display: flex;
@@ -42,7 +47,7 @@ nav {
 
 section#container {
   display: flex;
-  background-color: #555;
+  height: calc(100% - 63px);
 }
 
 #container .cards {
@@ -75,6 +80,7 @@ section#container {
   flex: 3;
   background-color: #444;
   color: white;
+  height: 100%;
 }
 
 #container .details .content {
