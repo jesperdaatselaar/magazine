@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Bernard the Sheep",
+        "img": "./img/bernardsheep.jpg"
+    },
+    {
+        "title": "Donald the Sheep",
+        "img": "./img/donaldsheep.jpg"
+    },
+    {
+        "title": "Guus the Sheep",
+        "img": "./img/guussheep.jpg"
+    }
+]
