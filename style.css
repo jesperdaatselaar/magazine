@@ -37,3 +37,46 @@ nav {
 .nav-item:hover {
   border-color: #fff;
 }
+
+/* container */
+
+section#container {
+  display: flex;
+  background-color: #555;
+}
+
+#container .cards {
+  flex: 7;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container .cards .card {
+  width: 250px;
+  height: 300px;
+  margin: 25px;
+  background-color: #444;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container .cards .card img {
+  width: 240px;
+}
+
+#container .cards .card h1 {
+  font-weight: 500;
+}
+
+#container .details {
+  flex: 3;
+  background-color: #444;
+  color: white;
+}
+
+#container .details .content {
+  margin: 25px;
+}
