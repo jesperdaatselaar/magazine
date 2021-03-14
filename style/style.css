@@ -54,6 +54,7 @@ section#container {
   flex: 7;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 #container .cards .card {

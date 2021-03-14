@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  #container .details {
+    flex: 4;
+  }
+
+  #container .cards {
+    flex: 6;
+    justify-content: center;
+  }
+
+  #container .cards .card {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  #container .cards .card img {
+    width: 90px;
+  }
+
+  #container .cards .card h1 {
+    font-size: 16px;
+  }
+}
